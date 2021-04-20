@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="project1.quiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="Τι ξερεις;"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Winner_Page"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".Question_and_Answer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Categories"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main_Game_Team_playing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Teams_Main_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RateUs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".No_More_Adds_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Rules_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Τι ξερεις;"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

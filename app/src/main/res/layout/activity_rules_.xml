@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_common"
+    tools:context=".Rules_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Rules_Title"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Rules_Title">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp">
+
+            <Button
+                android:id="@+id/ok_button"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/rules_Main_Text_6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/ok_button"
+                android:text="OK"
+                android:textSize="24sp"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintTop_toTopOf="@id/rules_Main_Text_6" />
+
+            <TextView
+                android:id="@+id/rules_Main_Text_6"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerInParent="true"
+                android:text="6. Η διαδικασία αυτή συνεχίζεται μέχρι μία απο τις δύο ομάδες να καταφέρει να απαντήσει σωστά σε όλες τις ερωτήσεις όλων των κατηγοριών και να νικήσει."
+                android:textColor="#000000"
+                android:layout_below="@id/rules_Main_Text_5"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@id/rules_Main_Text_5"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@id/rules_Main_Text_5"
+                app:layout_constraintTop_toBottomOf="@id/rules_Main_Text_5" />
+
+            <TextView
+                android:id="@+id/rules_Main_Text_5"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_centerInParent="true"
+                android:text="5. Απο τη στιγμή που εμφανίζεται η ερώτηση, η διαγωνιζόμενη ομάδα (Ομάδα 1) έχει στη διάθεση της 1 λεπτό (60) για να απαντήσει. Αν απαντήσει σωστά παίρνει 1 πόντο και συνεχίζει στην επόμενη ερώτηση. Αν δεν απαντήσει σωστά ή δεν απαντήσει στο χρονικό πλαίσιο του 1 λεπτού δεν παίρνει πόντο και ξεκινάει η σειρά της επόμενης ομάδας (Ομάδα 2) και τη συσκευή πλέον χειρίζεται η Ομάδα 1."
+                android:textColor="#000000"
+                android:layout_below="@id/rules_Main_Text_4"
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/rules_Main_Text_4" />
+
+            <TextView
+                android:id="@+id/rules_Main_Text_4"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="4. Αφού επιλέξει η Ομάδα 1 την κατηγορία με την οποία θέλει να παίξει, ο παίχτης που χειρίζεται τη συσκευή κάνει την ανάλογη επιλογή, εμφανίζεται η αντίστοιχη ερώτηση και τη διαβάζει."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@id/rules_Main_Text_3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/rules_Main_Text_3" />
+
+            <TextView
+                android:id="@+id/rules_Main_Text_3"
+                android:layout_width="350dp"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="3. Αφού οριστούν οι ομάδες ξεκινάει πρώτη η Ομάδα 1 και η συσκευή περνάει στα χέρια κάποιου παίχτη της αντίπαλης ομάδας (Ομάδα 2), ο οποίος λέει στην Ομάδα 1 τις διαθέσιμες κατηγορίες."
+                android:textColor="#000000"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@id/rules_Main_Text_2"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/rules_Main_Text_2" />
+
+            <TextView
+                android:id="@+id/rules_Main_Text_2"
+                android:layout_width="350dp"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="2. Οι παίκτες αρχικά χωρίζονται σε δύο ομάδες. Σκοπός της κάθε ομάδας είναι να απαντήσει πρώτη σε όλες τις ερωτήσεις κάθε κατηγορίας. Ο αριθμός σωστών απαντήσεων κάθε κατηγορίας καθορίζεται στην αρχή του παιχνιδιού     (1 έως 4)."
+                android:textColor="#000000"
+                android:layout_below="@id/Rules_Main_Text_1"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@id/Rules_Main_Text_1"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@id/Rules_Main_Text_1"
+                app:layout_constraintTop_toBottomOf="@id/Rules_Main_Text_1" />
+
+
+            <TextView
+                android:id="@+id/Rules_Main_Text_1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:text="1. Το παιχνίδι παίζεται με τουλάχιστον δύο παίκτες και απαιτείται μόνο μία συσκευή ανεξαρτήτως αριθμού παικτών."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/rules_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_no_words" />
+
+    <TextView
+        android:id="@+id/Rules_Title"
+        android:layout_width="349dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/title_border"
+        android:text="   Κανόνες Παιχνιδιού   "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@id/rules_logo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/rules_logo"
+        app:layout_constraintTop_toBottomOf="@id/rules_logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
